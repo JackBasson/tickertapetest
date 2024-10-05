@@ -1,0 +1,22 @@
+.ticker-container {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 120px; 
+    height: 100vh; 
+    overflow: hidden; 
+    background-color: #333; 
+}
+
+.ticker-images {
+    display: flex; 
+    flex-direction: column; 
+    position: relative;
+}
+
+.ticker-images img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    margin-top: 10px; 
+}
